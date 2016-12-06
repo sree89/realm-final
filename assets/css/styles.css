@@ -29404,7 +29404,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 .form-group button {
   margin-left : -185px !important;
 }
-} /* end of 320px */
+} 
 
 @media screen and (max-width:480px) {
 
@@ -29469,7 +29469,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 }
 
 
-}/* end of 480 px MQ */
+}
 
 @media screen and (max-width:720px) {
 
@@ -29532,7 +29532,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 }
 
 
-}/* end of 480 px MQ */
+}
 
 
 
