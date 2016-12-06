@@ -29209,20 +29209,20 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 } 
 
 .tile-warning {
-  -webkit-background: linear-gradient(45deg,#3CA6A0,#95C3C1) !important;
-  background: linear-gradient(45deg,#3CA6A0,#95C3C1) !important;
+  -webkit-background : linear-gradient(45deg,#3CA6A0,#95C3C1) !important;
+  background         : linear-gradient(45deg,#3CA6A0,#95C3C1) !important;
  
 }
 
 .tile-success {
-  -webkit-background: linear-gradient(45deg,#E94540,#FF9993) !important;
-  background: linear-gradient(45deg,#E94540,#FF9993) !important;
+  -webkit-background : linear-gradient(45deg,#E94540,#FF9993) !important;
+  background         : linear-gradient(45deg,#E94540,#FF9993) !important;
   
 }
 
 .tile-info {
-  -webkit-background: linear-gradient(45deg,#3D96D4,#ABCEEF) !important;
-  background: linear-gradient(45deg,#3D96D4,#ABCEEF) !important;
+  -webkit-background : linear-gradient(45deg,#3D96D4,#ABCEEF) !important;
+  background         : linear-gradient(45deg,#3D96D4,#ABCEEF) !important;
   
 }
 
@@ -29234,36 +29234,29 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 */
 .info-tile {
     
-    border-bottom-left-radius: 40px;
-    border-top-right-radius: 40px;
+    border-bottom-left-radius : 40px;
+    border-top-right-radius   : 40px;
 }
 
-/*.info-tile1 {
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 0px;
-    border-top-right-radius: 0px;
-}*/
-
 .bvtile {
-  box-shadow:4px 4px 6px #67bfbb;
+  box-shadow : 4px 4px 6px #67bfbb;
 }
 
 .sesstile {
-  box-shadow:4px 4px 6px #f57770;
+  box-shadow : 4px 4px 6px #f57770;
 }
 
 .conntile {
-  box-shadow:4px 4px 6px #69ade8;
+  box-shadow : 4px 4px 6px #69ade8;
 }
 
 /* amcharts starts here */
 
 #chartdiv {
-	width 	   : 100%;
-  height     : 500px;
-  margin-top : -30px;
-  margin-left: 0;
+	width 	  : 100%;
+  height      : 500px;
+  margin-top  : -30px;
+  margin-left : 0;
 }	
 
 #chartlegend {
@@ -29273,84 +29266,84 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 }
 
 .inset-text-effect{
-  color:#fff;
-  font-family:roboto;
-  text-shadow: darkgrey 1px 1px 0;
+  color       : #fff;
+  font-family : roboto;
+  text-shadow : darkgrey 1px 1px 0;
 }
 
 .btns {
-  list-style-type:none;
+  list-style-type : none;
 }
 
 .btns li {
-  float:left;
-  margin-left:5px;
+  float       : left;
+  margin-left : 5px;
 }
 
 .btns li button {
-  border-radius:8px !important;
+  border-radius : 8px !important;
 }
 
 #chartseries{
-  height:350px;
-  width:100%
+  height : 350px;
+  width  : 100%
 }
 
 .seriesgraph {
-  /*border        : 2px solid green;*/
-  /*background    : linear-gradient(lightgreen,lightblue); */
-  border-bottom-right-radius: 30px;
-  border-top-left-radius: 30px;
+  /*border                   : 2px solid green;*/
+  /*background               : linear-gradient(lightgreen,lightblue); */
+  border-bottom-right-radius : 30px;
+  border-top-left-radius     : 30px;
 }
 
 #break {
-  margin-top: 10px;
+  margin-top : 10px;
 }
 
 .mtop {
-    margin-top: -15px;
+    margin-top : -15px;
     
 }
 
 .mtop1 {
-   margin-top: -15px;
+   margin-top : -15px;
   
 }
 
 .back {
   box-shadow: 2px 2px 6px darkgrey;
-  -webkit-background: linear-gradient(to bottom, white, #e1faf6);
-  background: linear-gradient(to bottom, white, #e1faf6);
-  margin-left: 2px;
-  position:fixed;
-  height:20px;
-  z-index:999;
-  width: 96%;
+  -webkit-background : linear-gradient(to bottom, white, #e1faf6);
+  background         : linear-gradient(to bottom, white, #e1faf6);
+  margin-left        : 2px;
+  position           : fixed;
+  height             : 20px;
+  z-index            : 999;
+  width              : 96%;
 }
 
 .row2 {
-  margin-top: 80px;
-  height : 180px;
-  box-shadow: 2px 2px 6px darkgrey;
-  -webkit-background: linear-gradient(to bottom, white, #e1faf6);
-  background: linear-gradient(to bottom, white, #e1faf6);
+  margin-top         : 80px;
+  height             : 180px;
+  box-shadow         : 2px 2px 6px darkgrey;
+  -webkit-background : linear-gradient(to bottom, white, #e1faf6);
+  background         : linear-gradient(to bottom, white, #e1faf6);
 
 }
 
 .row3 {
-  height : 400px;
-  box-shadow: 2px 2px 6px darkgrey;
- -webkit-background: linear-gradient(to bottom, white, #e1faf6);
-  background: linear-gradient(to bottom, white, #e1faf6);
-  margin-left: 2px;
+  height            : 400px;
+  box-shadow        : 2px 2px 6px darkgrey;
+ -webkit-background : linear-gradient(to bottom, white, #e1faf6);
+  background        : linear-gradient(to bottom, white, #e1faf6);
+  margin-left       : 2px;
 }
 
 .row4 {
-  height : 500px;
-  box-shadow: 2px 2px 6px darkgrey;
- -webkit-background: linear-gradient(to bottom, white, #e1faf6);
-  background: linear-gradient(to bottom, white, #e1faf6);
-  margin-left: 2px;
+  height            : 500px;
+  box-shadow        : 2px 2px 6px darkgrey;
+ -webkit-background : linear-gradient(to bottom, white, #e1faf6);
+  background        : linear-gradient(to bottom, white, #e1faf6);
+  margin-left       : 2px;
 }
 
 /* media queries for 320px */
@@ -29361,7 +29354,7 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   width : 100%;
   height: 150px;
 }
-
+    
 .back .btns li button {
   width      :200px;
   height     : auto;
