@@ -29273,8 +29273,13 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   text-shadow : darkgrey 1px 1px 0;
 }
 
+.btns, .cal {
+  margin : 0 auto;
+}
+
 .btns {
   list-style-type : none;
+ 
 }
 
 .btns li {
@@ -29322,8 +29327,8 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 
 .back {
   box-shadow: 2px 2px 6px darkgrey;
-  -webkit-background : linear-gradient(to bottom, white, #e1faf6);
-  background         : linear-gradient(to bottom, white, #e1faf6);
+  -webkit-background : linear-gradient(to top, lightgrey, white, lightgrey);
+  background         : linear-gradient(to top, lightgrey, white, lightgrey);
   margin-left        : 2px;
   position           : fixed;
   z-index            : 999;
@@ -29373,57 +29378,79 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
     display: inline-block;
 }
 
+@media screen and (max-width: 1325px) {
+    
+    .contentDummy {
+        height : 160px;
+    }
+   .cal {
+  padding-top : 10px;
+}
+} /* 1325 or smaller */
+
 @media screen and (max-width: 960px) {
     
     .contentDummy {
-        height : 190px;
+        height : 160px;
     }
-      
+   .cal {
+  padding-top : 10px;
+}
 } /* 960 or smaller */
 
 @media screen and (max-width: 824px) {
     
     .contentDummy {
-        height : 220px;
+        height : 200px;
     }
-    
+      .cal {
+  padding-top : 10px;
+}
     
 } /* 824 or smaller */
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     
     .contentDummy {
-        height : 190px;
+        height : 160px;
     }
-    
+      .cal {
+  padding-top : 10px;
+}
     
 } /* 767 or smaller */
 
 @media screen and (max-width: 568px) {
     
     .contentDummy {
-        height : 220px;
+        height : 200px;
     }
-    
+      .cal {
+  padding-top : 10px;
+}
     
 } /* 568 or smaller */
 
 @media screen and (max-width: 356px) {
     
     .contentDummy {
-        height : 260px;
+        height : 230px;
     }
-    
+      .cal {
+  padding-top : 10px;
+}
     
 } /* 356 or smaller */
 
 @media screen and (max-width: 299px) {
     
     .contentDummy {
-        height : 300px;
+        height : 260px;
     }
     
-    
+    .cal {
+  padding-top : 10px;
+}
 } /* 299 or smaller */
 
 
