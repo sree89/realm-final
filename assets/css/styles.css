@@ -29226,12 +29226,9 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   
 }
 
-/*
 .brdrright {
-    border-right: 1px solid orange;
-    height: 280px;
+    margin-top : 20px;
 }
-*/
 .info-tile {
     
     border-bottom-left-radius : 40px;
@@ -29240,22 +29237,27 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 
 .bvtile {
   box-shadow : 4px 4px 6px #67bfbb;
+/*  display    : inline-block;*/
+  height     : auto;
 }
 
 .sesstile {
   box-shadow : 4px 4px 6px #f57770;
+/*  display    : inline-block;*/
+  height     : auto;
 }
 
 .conntile {
   box-shadow : 4px 4px 6px #69ade8;
+/*  display    : inline-block;*/
+  height     : auto;
 }
 
 /* amcharts starts here */
 
 #chartdiv {
-	width 	  : 100%;
-  height      : 500px;
-  margin-top  : -30px;
+  width 	  : 100%;
+  height      : 470px;
   margin-left : 0;
 }	
 
@@ -29277,11 +29279,14 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 
 .btns li {
   float       : left;
-  margin-left : 5px;
+  margin-left : 6px;
+  padding-top : 3px;
 }
 
 .btns li button {
-  border-radius : 8px !important;
+  border-radius : 80px !important;
+  display       : inline-block;
+  height        : auto;
 }
 
 #chartseries{
@@ -29300,15 +29305,20 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   margin-top : 10px;
 }
 
+/*
 .mtop {
     margin-top : -15px;
     
 }
-
+*/
+/*
 .mtop1 {
-   margin-top : -15px;
-  
+  padding-top   : 3px;
+  margin-right  : 0px;
+  display       : inline-block;
+  overflow-x    : hidden;
 }
+*/
 
 .back {
   box-shadow: 2px 2px 6px darkgrey;
@@ -29316,23 +29326,27 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
   background         : linear-gradient(to bottom, white, #e1faf6);
   margin-left        : 2px;
   position           : fixed;
-  height             : 20px;
   z-index            : 999;
-  width              : 96%;
+  display            : block;
+/*  max-height:        : 150px;*/
+  overflow           : hidden;
+  margin-top: 0;
 }
 
 .row2 {
-  margin-top         : 80px;
-  height             : 100%;
+/*  margin-top         : 13%;*/
+  display            : block;
+  height             : auto;
+  overflow           : auto;
   box-shadow         : 2px 2px 6px darkgrey;
   -webkit-background : linear-gradient(to bottom, white, #e1faf6);
   background         : linear-gradient(to bottom, white, #e1faf6);
-  overflow           : auto;
-
 }
 
 .row3 {
-  height            : 400px;
+  display           : block;
+  height            : auto;
+  overflow          : auto;
   box-shadow        : 2px 2px 6px darkgrey;
  -webkit-background : linear-gradient(to bottom, white, #e1faf6);
   background        : linear-gradient(to bottom, white, #e1faf6);
@@ -29340,216 +29354,77 @@ fieldset[disabled] .datepicker table tr td span.active.disabled:hover.active {
 }
 
 .row4 {
-  height            : 500px;
+  display           : block;
+  height            : auto;
+  overflow          : auto;
   box-shadow        : 2px 2px 6px darkgrey;
  -webkit-background : linear-gradient(to bottom, white, #e1faf6);
   background        : linear-gradient(to bottom, white, #e1faf6);
   margin-left       : 2px;
 }
 
-/* media queries for 320px */
-
-@media screen and (max-width:320px) {
-
-.back {
-  width : 100%;
-  height: 150px;
+.contentDummy {
+  display            : block;
+  height             : auto;
+  overflow           : auto;
 }
+
+.contentDUmmy p {
+    display: inline-block;
+}
+
+@media screen and (max-width: 960px) {
     
-.back .btns li button {
-  width      :200px;
-  height     : auto;
-  padding    : 2px;
-  margin-top : 1px;
-  margin-left: -90px !important;
- }
+    .contentDummy {
+        height : 190px;
+    }
+      
+} /* 960 or smaller */
 
- .back .mtop .form-group {
-   margin-top : 20px;
- }
-
-.btns li button {
-  border-radius : 4px !important;
-}
-
-.info-tile {
-  border-top-right-radius   : 20px;
-  border-bottom-left-radius : 20px;
-}
-
-.row2 {
-  height     : 100%;
-  overflow   : auto;
-  margin-top : 0;
-}
-
-.row3 {
-  box-shadow         : 2px 2px 6px darkgrey;
-  -webkit-background : linear-gradient(to bottom,white, #e1faf6);
-  background         : linear-gradient(to bottom,white, #e1faf6);
-  margin-left        : 2px;
-  height             : 100%;
-  overflow           : auto;
-  box-sizing         : border-box; 
-  margin-top         : 10px;
-}
-
-.row4 {
-  height             : 100%;
-  overflow           : auto;
-  box-shadow         : 2px 2px 6px darkgrey;
-  -webkit-background : linear-gradient(to top,white, #e1faf6);
-  background         : linear-gradient(to top,white, #e1faf6);
-  margin-left        : 2px;
-  box-sizing         : border-box; 
-  margin-top         : 10px;
-}
-
-.form-group button {
-  margin-left : -185px !important;
-}
-} 
-
-@media screen and (max-width:480px) {
-
-.btns  {
-  width       : 100%;
-  margin-left : 100px !important;
-  }
+@media screen and (max-width: 824px) {
     
-.back {
-  width  : 100%;
-  height : 210px !important;
- }
-
-.back .btns li button {
-  width       : 250px;
-  height      : auto;
-  padding     : 2px;
-  margin-top  : 1px;
-  margin-left : 0px;
- }
-
- .back .mtop .form-group {
-   margin-top : 20px;
- }
-
-.btns li button {
-  border-radius : 4px !important;
-}
-
-.info-tile {
-  border-bottom-left-radius : 20px;
-  border-top-right-radius   : 20px;
-}
-
-.row2 {
-  margin-top : 240px !important;
-  height     : 100%;
-  overflow   : auto;
-}
-
-.row3 {
-  box-shadow         : 2px 2px 6px darkgrey;
-  -webkit-background : linear-gradient(to top,white, #e1faf6);
-  background         : linear-gradient(to top,white, #e1faf6);
-  margin-left        : 2px;
-  height             : 100%;
-  overflow           : auto;
-  box-sizing         : border-box; 
-  
-}
-
-.row4 {
-  height             : 100%;
-  overflow           : auto;
-  box-shadow         : 2px 2px 6px darkgrey;
-  -webkit-background : linear-gradient(to top,white, #e1faf6);
-  background         : linear-gradient(to top,white, #e1faf6);
-  margin-left        : 2px;
-  box-sizing         : border-box; 
-  
-}
-
-.form-group button {
-  margin-left : -285px !important;
-}
-
-
-}
-
-@media screen and (max-width:720px) {
-
-.btns  {
-  width : 100%;
-}
+    .contentDummy {
+        height : 220px;
+    }
     
-.back {
-  width  : 100%;
-  height : 120px;
- }
+    
+} /* 824 or smaller */
 
-.back .btns li button {
-  width      : 200px;
-  height     : auto;
-  padding    : 2px;
-  margin-top : 2px;
- }
+@media screen and (max-width: 767px) {
+    
+    .contentDummy {
+        height : 190px;
+    }
+    
+    
+} /* 767 or smaller */
 
-.back .mtop1 .form-group {
-   margin-top : 20px;
-}
+@media screen and (max-width: 568px) {
+    
+    .contentDummy {
+        height : 220px;
+    }
+    
+    
+} /* 568 or smaller */
 
-.btns li button {
-  border-radius : 4px !important;
-}
+@media screen and (max-width: 356px) {
+    
+    .contentDummy {
+        height : 260px;
+    }
+    
+    
+} /* 356 or smaller */
 
-.info-tile {
-  border-bottom-left-radius : 20px;
-  border-top-right-radius   : 20px;
-}
-
-.row2 {
-  margin-top : 150px;
-  height     : 100%;
-  overflow   : auto;
-}
-
-.row3 {
-  box-shadow         : 2px 2px 6px darkgrey;
-  -webkit-background : linear-gradient(to bottom,white, #e1faf6);
-  background         : linear-gradient(to bottom,white, #e1faf6);
-  margin-left        : 2px;
-  height             : 100%;
-  overflow           : auto;
-  box-sizing         : border-box; 
-  
-}
-
-.row4 {
-  height             : 100%;
-  overflow           : auto;
-  box-shadow         : 2px 2px 6px darkgrey;
-  -webkit-background : linear-gradient(to top,white, #e1faf6);
-  background         : linear-gradient(to top,white, #e1faf6);
-  margin-left        : 2px;
-  box-sizing         : border-box; 
-  
-}
-
-.form-group button {
-  margin-left : -420px;
-}
-
-
-}
-
-
-
-
-
-
-
+@media screen and (max-width: 299px) {
+    
+    .contentDummy {
+        height : 300px;
+    }
+    
+    
+} /* 299 or smaller */
 
 
 

@@ -127,7 +127,7 @@
 
 <div class="row clearfix">
 <div class="well well-lg back">
-<div class="col-lg-6 col-md-6 col-xs-12 mtop">
+<div class="col-lg-6 col-md-6 col-xs-12 mtop pull-right">
 
     <ul class="btn-group btns">
         <li> <button class="btn btn-success"> TODAY </button> </li>
@@ -140,7 +140,7 @@
 </div>
 <!-- end of .mtop -->
 
-<div class="col-lg-6 col-md-6 col-xs-12 mtop1">
+<div class="col-lg-6 col-md-6 col-xs-12 mtop1 pull-left">
 
    <div class="form-group">
      
@@ -168,6 +168,20 @@
 <!-- end of 1st row -->
 
 <!-- *^*^*^*^*^*^*^*^*^**^*^*^*^*^* row2 starts here *^*^*^*^*^*^*^*^*^**^*^*^*^*^* -->
+        
+        <!-- dummy row starts here -->
+        
+<div class="row"> 
+    <div class="col-lg-12 col-md-12 col-xs-12">
+        <div class="contentDummy">
+<p><br><br><br><br><br><br><br> </p>        
+        </div>
+    </div> <!-- .cols -->    
+</div> <!-- .row -->
+        
+        
+        
+        <!-- dummy row ends here -->
         
 <div class="row">
 <div class="well well-lg row2">
@@ -263,7 +277,6 @@
     </div>
     </form>
 
-
 </div>
 
 <div class="col-lg-9 col-md-9 col-xs-12">
@@ -272,14 +285,12 @@
 
 </div>
 <!-- end of cols9 -->
-</div>
-<!-- end of well -->
-</div>
-<!-- end of 4th row -->
-
-  
     </div>
-    <!-- end of container-fluid -->
+    <!-- end of well -->
+        </div>
+        <!-- end of 4th row -->
+            </div>
+            <!-- end of container-fluid -->
 
     <footer role="contentinfo">
         <div class="clearfix">
@@ -780,7 +791,6 @@ zoomChart();
 function zoomChart() {
     chart.zoomToIndexes(chart.dataProvider.length - 40, chart.dataProvider.length - 1);
 }
-
 
 </script>
 
